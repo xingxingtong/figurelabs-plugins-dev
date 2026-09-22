@@ -4,7 +4,7 @@ This page describes installation only when the user explicitly asks to install o
 
 ## Distribution identity
 
-- Repository: https://github.com/figurelabs-ai/figurelabs-plugins-dev.git
+- Repository: https://github.com/xingxingtong/figurelabs-plugins-dev.git
 - Git ref: main
 - Marketplace: figurelabs-dev-marketplace
 - Plugin: figurelabs-dev
