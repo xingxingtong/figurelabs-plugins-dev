@@ -1,0 +1,20 @@
+{
+  "name": "figurelabs-dev-marketplace",
+  "interface": {
+    "displayName": "Figurelabs Dev Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "figurelabs-dev",
+      "source": {
+        "source": "local",
+        "path": "./plugins/figurelabs-dev"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}
