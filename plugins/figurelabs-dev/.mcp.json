@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "figurelabs-dev": {
+      "type": "http",
+      "url": "https://txx.natappvip.cc/plot-mcp"
+    }
+  }
+}
