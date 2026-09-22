@@ -9,7 +9,7 @@ This repository distributes the **dev environment** plugin. It connects to `http
 Use a Codex version that supports plugin marketplaces:
 
 ```sh
-codex plugin marketplace add figurelabs-ai/figurelabs-plugins-dev --ref main
+codex plugin marketplace add xingxingtong/figurelabs-plugins-dev --ref main
 ```
 
 Open the client's Plugins page, find the **Figurelabs Dev Marketplace** source, and install **FigureLabs Dev**. Complete the authentication flow when prompted, then start a new conversation and select the plugin. The marketplace identifier is `figurelabs-dev-marketplace`.
@@ -25,7 +25,7 @@ If your client does not recognize `codex plugin marketplace`, update to a versio
 ### Dev from a local clone
 
 ```sh
-git clone https://github.com/figurelabs-ai/figurelabs-plugins-dev.git
+git clone https://github.com/xingxingtong/figurelabs-plugins-dev.git
 cd figurelabs-plugins-dev
 codex plugin marketplace add .
 ```
@@ -87,5 +87,3 @@ Push the **contents of this directory** to the root of `figurelabs-ai/figurelabs
 Only the client plugin configuration and skills are included. Each user authenticates separately; do not commit access tokens, API keys, local client settings, or backend configuration. Keep the `figurelabs-dev` name and dev endpoint together. Distribute a separately named production plugin when you are ready for production use.
 
 See the [official OpenAI plugin packaging documentation](https://developers.openai.com/plugins/build/plugins) for marketplace setup details.
-
-[中文安装说明](README.zh-CN.md)
