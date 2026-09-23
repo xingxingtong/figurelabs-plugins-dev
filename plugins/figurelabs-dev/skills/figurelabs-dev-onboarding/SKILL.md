@@ -37,24 +37,37 @@ Adapt the example to discovered tools and returned capabilities. Describe canvas
 
 Use this English example as a content guide, translating naturally when appropriate:
 
-> **FigureLabs Dev is connected and ready.**
+> **FigureLabs is connected and ready.** All skills and seven MCP tools are currently loaded.
 >
-> FigureLabs Dev helps you create and refine scientific figures for papers and presentations from your research context, files, and data.
+> FigureLabs helps you create and refine scientific figures for papers, presentations, and research communication using your research content, files, and data:
 >
-> Here's what I can help you do:
+> - **Scientific illustrations:** Create mechanism diagrams, graphical abstracts, labeled figures, and research concept illustrations.
+> - **Data plots:** Create charts from real CSV, XLS, or XLSX data while preserving the original source data.
+> - **Flowcharts:** Turn Methods, experimental procedures, and research workflows into clear, editable flowcharts.
+> - **Figure revisions:** Adjust colors, labels, layout, proportions, and overall visual style.
+> - **Web canvas editing:** Continue arranging content, editing text, redrawing selected areas, and exporting in the canvas. Frame, shape, line, pencil, and comment tools are available from the **More** menu in the bottom toolbar.
 >
-> - **Scientific illustrations:** create mechanism diagrams, graphical abstracts, labeled figures, and visual explanations of your research.
-> - **Data plots:** turn CSV, XLS, or XLSX files into charts using your real data, while preserving the original source data.
-> - **Flowcharts:** convert Methods, experimental procedures, and workflows into clear, editable flowcharts.
-> - **Figure revisions:** refine an existing result by changing colors, labels, layout, proportions, or visual style.
-> - **Canvas editing:** continue in FigureLabs Dev for hands-on arranging, text changes, region redraws, framing, and export, where supported.
+> You can learn the common canvas features in this order:
 >
-> Try saying:
+> 1. **Upload an external image**  
+>    Add a local or external image to the canvas as an editing target or reference asset.
+> 2. **Mark an image**  
+>    Mark an image on the canvas, then describe in the chat how it should be replaced or combined with another image.
+> 3. **Use Frame for manual or automatic layout**  
+>    Use Frame to organize image content. You can adjust the layout manually or ask AI to help arrange it automatically.
+> 4. **Add canvas elements**  
+>    Use the Text tool to add titles, labels, and descriptions. Open **More** in the bottom canvas toolbar to access **Frame, Shapes, Lines, and Pencil** for adding shapes, lines, and hand-drawn elements.
+> 5. **Comments and collaboration**  
+>    Select **Add comment** from the **More** menu in the bottom toolbar to comment on canvas content. You can ask AI to apply the comment as an image revision, or use comments to collaborate with others.
+> 6. **Zoom the canvas**  
+>    Zoom in to inspect local details or zoom out to review the overall layout, making it easier to switch between detailed editing and global composition.
 >
-> - "Create a graphical abstract from this paper."
-> - "Create a publication-ready plot from this CSV."
-> - "Turn these Methods into an experimental flowchart."
-> - "Revise this figure to use a clean journal style."
+> You can try requests such as:
+>
+> - “Create a graphical abstract from this paper.”
+> - “Create a publication-ready line chart from this CSV.”
+> - “Turn these Methods into an experimental flowchart.”
+> - “Revise this figure in a clean journal style.”
 
 Finish with the observed browser outcome and the real token-free project link, rather than inventing a link in the example. If opened, say the empty project is open for editing and no image was generated or generation credits charged. If opening failed or browser control is absent, say the connection succeeded but the page could not be opened here, and provide the link; an empty project has no image for preview. If authentication or bootstrap failed, explain the actual failure instead of using the success introduction.
 
